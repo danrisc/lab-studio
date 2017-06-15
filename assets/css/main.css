@@ -1,33 +1,54 @@
-
-.first-section{
-	background-image: url(../img/header-bg.jpg);
-	height: 100vh;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
+/*Primera seccion*/
+ .first-section{
+ 	background-image: url(../img/header-bg.jpg);
+ 	height: 100vh;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ }
+ .navbar-header{
+ 	height: 70px;
+ 	padding-top: 10px;
+ }
+   .navbar-inverse .navbar-nav>li>a:hover{
+     background-color: rgba(117,114,108,0.5);
+     background-color: #f1c40f;
+     border-color: none;
+ }
  .name-logo {
  	margin-top: 10px;
      font-size: 25px;
      color: #f1c40f;
      font-family: 'Kaushan Script', cursive;
+     padding-top: 10px;
+}
+.welcome{
+ 	font-family: 'Lato', sans-serif;
+ 	color: whitesmoke;
+ 	font-size: 200%;
+}
+.tit{
+ 	color: whitesmoke;
+ 	font-size: 400%;
+ 	font-weight: bold;
+ }	
+.navbar-collapse {
+	color:white;
+	font-family:'Lato', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+ .btn-default{
+ 	border-color: #f1c40f;
+ 	padding:20px 60px;
+ 	font-size: 150%;
+ 	font-weight: bold;
+ 	margin-top: 50px;
+ }
+.navbar-btn{
+  	background-color: #f1c40f;
+  	color: whitesmoke;
+  }
 
 
-.first-section h1{
-	padding-top:2em;
-	color:#FFF;
-	font-weight: 900;
-	font-size:70px;
-}
-.line{
-	border-top:3px solid white;
-}
 
-#showApp{
-	color:#FFF;
-	font-weight: 400;
-}
-.app{
-	padding: 2em 0;
-	color:#5A5A5A;
-}
