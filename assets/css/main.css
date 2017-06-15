@@ -1,0 +1,33 @@
+
+.first-section{
+	background-image: url(../img/header-bg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+ .name-logo {
+ 	margin-top: 10px;
+     font-size: 25px;
+     color: #f1c40f;
+     font-family: 'Kaushan Script', cursive;
+
+
+.first-section h1{
+	padding-top:2em;
+	color:#FFF;
+	font-weight: 900;
+	font-size:70px;
+}
+.line{
+	border-top:3px solid white;
+}
+
+#showApp{
+	color:#FFF;
+	font-weight: 400;
+}
+.app{
+	padding: 2em 0;
+	color:#5A5A5A;
+}
